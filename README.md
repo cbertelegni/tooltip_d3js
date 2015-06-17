@@ -1,6 +1,6 @@
 # tooltip_d3js
 
-Simple tooltip for [d3.js](https://github.com/mbostock/d3)
+Simple tooltip plugin for [d3.js](https://github.com/mbostock/d3)
 
 ## Example
 
@@ -14,8 +14,6 @@ svg { margin: 0 auto; display: block;}
 	background:#FFFFFF;
 	border: #ccc solid 1px;
 	padding: 10px 12px 5px 10px;
-	top:0px;
-	left:0px;
 	border-radius: 3px;
 }
 </style>
@@ -44,6 +42,8 @@ svg.append("circle")
 		return h/2;
 	})
 	.attr('r', function(){ return w/4})
+
+	// set mouse events
 	.on('mouseover', function(){
 		var html = "Hello <b>tooltipD3!</b>";
 		tooltip.mouseover(html); // pass html content
