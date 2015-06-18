@@ -42,7 +42,7 @@ function tooltipd3(tltp_name){
 			});
 	};
 
-	/** Get de width and height of tooltip and set w & h of Tooltip class */
+	/** Get width and height of tooltip and set w & h of Tooltip class */
 	s.get_t_size = function(){
 		var size = s.t.node().getBoundingClientRect();
 		s.w = size.width;
