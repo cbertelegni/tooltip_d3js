@@ -1,6 +1,6 @@
-# tooltip_d3js
+# Tooltipd3js
 
-Simple tooltip plugin for [d3.js](https://github.com/mbostock/d3)
+Tolltipd3 is a basic [d3.js](https://github.com/mbostock/d3) plugin for handling tooltips.
 
 ![print of tooltipd3.js](print_tooltipd3.png "")
 
