@@ -52,4 +52,10 @@ svg.append("circle")
 	.on('mouseout', tooltip.mouseout);
 ```
 
+## Install
+
+```bash
+bower install -S tooltipd3
+```
+
 Credits: [cbertelegni](https://github.com/cbertelegni)
