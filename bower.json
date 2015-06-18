@@ -6,9 +6,9 @@
     "cbertelegni <cristianbertelegni@gmail.com>"
   ],
   "description": "Simple tooltip plugin for d3.js",
-  "main": "tooltip.d3.js",
+  "main": "src/tooltip.d3.js",
   "keywords": [
-    "tooltip",
+    "tooltipd3",
     "d3",
     "d3.js"
   ],
