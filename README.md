@@ -2,6 +2,8 @@
 
 Simple tooltip plugin for [d3.js](https://github.com/mbostock/d3)
 
+![print of tooltipd3.js](print_tooltipd3.png "")
+
 ## Example
 
 ### HTML
