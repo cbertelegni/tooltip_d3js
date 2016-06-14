@@ -17,6 +17,8 @@ function tooltipd3(tltp_name){
 		.style("opacity", 1e-6)
 		.style("position", "absolute");
 	
+	s.t.on("click", s.mouseout);
+	
 	s.mouseover = function(html) {
 		/** @param {string} html - Is the content for tooltip */
 		s.t.html(html)
