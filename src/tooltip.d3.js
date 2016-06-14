@@ -30,7 +30,7 @@ function tooltipd3(tltp_name){
 
 	s.mousemove = function(){
 		s.t.style("left", (d3.event.pageX - s.w/2) + "px")
-			.style("top", (d3.event.pageY - s.h - 5) + "px")
+			.style("top", (d3.event.pageY - s.h - 10) + "px")
 			.style("opacity", 1);
 	};
 
