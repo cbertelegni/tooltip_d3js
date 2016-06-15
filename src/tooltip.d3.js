@@ -31,7 +31,9 @@ function tooltipd3(tltp_name){
 	};
 
 	s.mousemove = function(){
-		s.t.style("left", (d3.event.pageX - s.w/2) + "px")
+		var l = d3.event.pageX - s.w/2;
+		l = l < 0 ? 0 : l;
+		s.t.style("left", l + "px")
 			.style("top", (d3.event.pageY - s.h - 10) + "px")
 			.style("opacity", 1);
 	};
