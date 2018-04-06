@@ -56,3 +56,8 @@ function tooltipd3(tltp_name){
 
 	return s;
 }
+
+
+if(module){
+	module.exports = tooltipd3; 
+}
