@@ -59,5 +59,9 @@ svg.append("circle")
 ```bash
 bower install -S tooltipd3
 ```
+or
 
+```bash
+npm install cbertelegni/tooltipd3
+```
 Credits: [cbertelegni](https://github.com/cbertelegni)
