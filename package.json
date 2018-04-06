@@ -2,7 +2,7 @@
   "name": "tooltip_d3",
   "version": "1.0.0",
   "description": "Tooltip for d3.js",
-  "main": "index.js",
+  "main": "src/tooltip.d3.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
